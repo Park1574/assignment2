@@ -1,0 +1,27 @@
+#mainBody {
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  #imagesGrid {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #imagesGrid img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    transition: box-shadow 0.3s, border-radius 0.3s;
+  }
+  
+  #imagesGrid td {
+    padding: 10px;
+  }
+  
+  #imagesGrid img:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.7);
+    border-radius: 32px;
+  } 
