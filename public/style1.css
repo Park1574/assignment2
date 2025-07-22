@@ -1,0 +1,28 @@
+#mainBody {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#imagesGrid {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* 셀 크기 균등하게 */
+}
+
+#imagesGrid td {
+    width: 25%;
+    padding: 5px;
+}
+
+#imagesGrid img {
+    width: 100%;      /* 셀에 꽉 차게 */
+    height: auto;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+#imagesGrid img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}

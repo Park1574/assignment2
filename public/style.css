@@ -1,0 +1,37 @@
+#mainBody{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#imagesGrid{
+    width:100%;
+    height:auto;
+   
+    
+    
+}
+#imagesGrid td{
+    width:25%;
+   
+    
+}
+#imagesGrid img{
+    width:100%;
+    height: auto;
+    display:block;
+}
+
+#imagesGrid img:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+#table{
+    width:100%;
+    height:auto;
+    table-layout;
+}
+#table td{
+    width:25%;
+}
